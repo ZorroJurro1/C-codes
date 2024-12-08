@@ -1,0 +1,12 @@
+#include <stdio.h> 
+int main() { 
+int marks[5]; int sum = 0; float percentage; 
+printf("Enter marks of 5 subjects:\n");
+for (int i = 0; i < 5; i++) 
+{ scanf("%d", &marks[I]); 
+sum += marks[i]; 
+}
+percentage = (sum / 5.0); 
+printf("Percentage: %.2f%%\n", percentage); 
+return 0;
+}
