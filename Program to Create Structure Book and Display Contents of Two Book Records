@@ -1,0 +1,14 @@
+#include <stdio.h> 
+struct Book { 
+char title[50]; 
+char author[50];
+int pages; 
+float price;
+};
+int main(){
+struct Book book1 = {"The Great Gatsby", "F. Scott Fitzgerald", 180, 10.99};
+struct Book book2 = {"To Kill a Mockingbird", "Harper Lee", 281, 7.99};
+printf("Book 1:\nTitle: %s\nAuthor: %s\nPages: %d\nPrice: $%.2f\n", book1.title, book1.author, book1.pages, book1.price);
+printf("\nBook 2:\nTitle: %s\nAuthor: %s\nPages: %d\nPrice: $%.2f\n", book2.title, book2.author, book2.pages, book2.price);
+return 0;
+}
