@@ -1,0 +1,11 @@
+#include <stdio.h> 
+void display() {
+int localVar = 10; 
+printf("Local variable in display function: %d\n", localVar);
+} 
+int main() {
+int localVar = 20; 
+printf("Local variable in main function: %d\n", localVar);
+display();
+return 0;
+}
