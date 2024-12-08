@@ -1,0 +1,11 @@
+#include <stdio.h>
+int globalVar = 10;
+void display() {
+printf("Global variable in display function: %d\n", globalVar);
+} 
+int main() {
+printf("Global variable in main function: %d\n", globalVar); 
+globalVar = 20; 
+display();
+return 0;
+}
