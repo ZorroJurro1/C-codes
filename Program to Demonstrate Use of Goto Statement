@@ -1,0 +1,11 @@
+#include <stdio.h> 
+int main() {
+int i = 0; 
+printf("Demonstrating the goto statement:\n"); 
+start: printf("%d ", i);
+i++; if (i < 5) 
+{ goto start; 
+}
+printf("\nLoop ended after i reached 5\n"); 
+return 0; 
+}
