@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main() {
+int i;
+printf("Demonstrating the continue statement:\n");
+for (i = 1; i <= 10; i++) 
+{ if (i == 5) 
+{ continue;
+printf("%d ", i); } 
+printf("\nSkipped the number 5\n"); 
+return 0; 
+}
