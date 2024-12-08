@@ -1,0 +1,8 @@
+#include <stdio.h>
+static void display() { 
+printf("Static function called.\n"); } 
+int main()
+{
+display(); 
+return 0;
+}
