@@ -1,0 +1,6 @@
+#include <stdio.h> 
+int main() { 
+int regVar = 10;
+printf("Register variable: %d\n", regVar); 
+return 0; 
+}
