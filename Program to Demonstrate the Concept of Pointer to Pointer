@@ -1,0 +1,8 @@
+#include <stdio.h> 
+int main() { 
+int num = 10; int *ptr = &num;
+int **pptr = &ptr;
+ printf("Value of num: %d\n", **pptr); 
+printf("Address of num: %p\n", *pptr); 
+return 0; 
+}
